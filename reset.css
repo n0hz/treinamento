@@ -2,11 +2,12 @@ html, body, div, span, h1, h2, a, img, ul, li {
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 100%;
 }
 ol, ul {
 	list-style: none;
 }
 a {
-  text-decoration: none;
-  color: #000000;
+	color: #000000;
 }

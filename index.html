@@ -1,124 +1,132 @@
-<head>
-<link rel="stylesheet" type="text/css" href="estilos.css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-</head>
-<div class="sidebar">
-  <ul class="menu">
-    <li>
-      <ul class="title">
-        <li>
-          <a href="#">My Blog</a>
-        </li>
-        <li>
-          Blogging About Stuff
-        </li>
-      </ul>
-    </li>
-    <br></br>
-    <li>
-      <ul class="sub-menu-v">
-        <div class="hline"></div>
-        <li>
-          <a href="#">Blog</a>
-        </li>
-        <div class="hline"></div>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <div class="hline"></div>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-        <div class="hline"></div>
-        <li>
-          <a href="#">External Link</a>
-          <div class="description">External link with description.</div>
-        </li>
-        <div class="hline"></div>
-      </ul>
-    </li>
-    <br></br>
-    <li>
-      <ul class="sub-menu-h">
-        <li>
-          <a href="#"><img src="logos/twitter.png" width="32" height="32"></a>
-          <a href="#"><img src="logos/facebook.png" width="32" height="32"></a>
-          <a href="#"><img src="logos/gplus.png" width="32" height="32"></a>
-          <a href="#"><img src="logos/github.png" width="32" height="32"></a>
-        </li>
-      </ul>
-    </li>
-    <br></br>
-    <li>
-      <ul class="sub-menu-h">
-        <li>
-          <input type="search" class="search-box" value="Search...">
-        </li>
-      </ul>
-    </li>
-    <br></br>
-    <li>
-      <div class="sub-menu-title">RANDOM ARTICLE</div>
-      <ul class="sub-menu-v">
-        <li>
-          <a href="#">I'm Feeling Lucky!</a>
-        </li>
-      </ul>
-    </li>
-    <br></br>
-    <li>
-      <div class="sub-menu-title">ARCHIVES</div>
-      <ul class="sub-menu-v">
-        <li>
-          <a href="#">July 2014 (2)</a>
-        </li>
-        <div class="hline"></div>
-        <li>
-          <a href="#">June 2014 (4)</a>
-        </li>
-        <div class="hline"></div>
-        <li>
-          <a href="#">May 2014 (1)</a>
-        </li>
-        <div class="hline"></div>
-        <li>
-          <a href="#">June 2014 (4)</a>
-        </li>
-        <div class="hline"></div>
-        <li>
-          <a href="#">May 2014 (1)</a>
-        </li>
-      </ul>
-    </li>
-    <br></br>
-    <li>
-      <div class="sub-menu-title">POPULAR TAGS</div>
-      <ul class="sub-menu-h">
-        <li>
-          <a href="#">photography</a>
-          <a href="#">journal</a>
-          <a href="#">city</a>
-          <a href="#">architecture</a>
-          <a href="#">night</a>
-          <a href="#">travel</a>
-          <a href="#">ocean</a>
-          <a href="#">birds</a>
-        </li>
-      </ul>
-    </li>
-    <br></br>
-    <li>
-      <div class="sub-menu-title">SUBSCRIBE</div>
-      <ul class="sub-menu-v">
-        <li>
-          <a href="#">Atom 1.0</a>
-        </li>
-        <div class="hline"></div>
-        <li>
-          <a href="#">RSS</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="main-sidebar-menu">
+            <div class="main-sidebar-menu-title">
+                <a href="#"><h1>My Blog</h1></a>
+                <div class="main-sidebar-vertical-space"></div>
+                <h2>Blogging About Stuff</h2>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="main-sidebar-submenu-main">
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">Blog</a>
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">About</a>
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#"><span></span>External Link</a>
+                    <div class="main-sidebar-submenu-link-description">External link with description.</div>
+                  
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="main-sidebar-submenu-links">
+                <a href="#"><img src="logos/twitter.png" alt="Twitter" width="32" height="32"></a>
+                <span></span>
+                <a href="#"><img src="logos/facebook.png" alt="Facebook" width="32" height="32"></a>
+                <span></span>
+                <a href="#"><img src="logos/gplus.png" alt="Google Plus" width="32" height="32"></a>
+                <span></span>
+                <a href="#"><img src="logos/github.png" alt="GitHub" width="32" height="32"></a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="main-sidebar-submenu-search">
+                <input type="search" class="main-sidebar-search-box" value="Search...">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="main-sidebar-submenu-title">RANDOM ARTICLE</div>
+            <div class="main-sidebar-vertical-space"></div>
+            <div class="main-sidebar-submenu-random">
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">I'm Feeling Lucky!</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="main-sidebar-submenu-title">ARCHIVES</div>
+            <div class="main-sidebar-vertical-space"></div>
+            <div class="main-sidebar-submenu-archives">
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">July 2014 (2)</a>
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">June 2014 (4)</a>
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">May 2014 (1)</a>
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">June 2014 (4)</a>
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">May 2014 (1)</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="main-sidebar-submenu-title">POPULAR TAGS</div>
+            <div class="main-sidebar-vertical-space"></div>
+            <div class="main-sidebar-submenu-popular">
+                <a href="#">photography</a>
+                <a href="#">journal</a>
+                <a href="#">city</a>
+                <a href="#">architecture</a>
+                <a href="#">night</a>
+                <a href="#">travel</a>
+                <a href="#">ocean</a>
+                <a href="#">birds</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="main-sidebar-submenu-title">SUBSCRIBE</div>
+            <div class="main-sidebar-vertical-space"></div>
+            <div class="main-sidebar-submenu-subscribe">
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">Atom 1.0</a>
+                </div>
+                <div class="main-sidebar-horizontal-line"></div>
+                <div class="main-sidebar-submenu-button">
+                    <a href="#">RSS</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
