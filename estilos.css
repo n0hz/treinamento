@@ -97,8 +97,7 @@ body {
     font-size: 13px;
     color: #909090;
 }
-
-.btn:hover {
+.btn--default:hover {
     background-color: #d0d0d0;
 }
 
