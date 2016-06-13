@@ -3,9 +3,11 @@ body {
     height: 100%;
     background: #d0d0d0;
 }
+
 .container {
     overflow: hidden;
 }
+
 .sidebar {
     float: left;
     width: 220px;
@@ -16,37 +18,46 @@ body {
     margin-bottom: -50000px;
     padding-bottom: 50000px;
 }
+
 .content {
     margin-left: 340px;
 }
+
 .menu {
     padding: 0px;
 }
+
 .menu--sidebar {
     padding: 0px 0px 80px 0px;
 }
+
 .title {
     font-family: sans-serif;
     font-size: 16px;
     color: #000000;
 }
+
 .title--main {
     font-size: 28px;
     display: block;
     font-weight: bold;
 }
+
 .title--sub {
     color: #a0a0a0;
 }
+
 .title--menu {
     font-weight: bold;
     padding: 0px 0px 20px 0px;
 }
+
 .title--article {
     font-size: 18px;
     font-weight: bold;
     display: block;
 }
+
 .searchbox {
     display: block;
     width: 100%;
@@ -57,15 +68,18 @@ body {
     background-color: #ffffff;
     border: 1px;
 }
+
 .searchbox--default {
     color: #505050;
     background-color: #ffffff;
     border: 1px solid #c0c0c0;
     border-radius: 4px;
 }
+
 .searchbox--focus:focus {
       z-index: 3;
 }
+
 .btn {
     padding: 0px 0px;
     display: inline;
@@ -73,17 +87,21 @@ body {
     cursor: pointer;
     color: #000000;
 }
+
 .btn--default {
     display: block;
     padding: 10px 0px;
 }
+
 .btn--description {
     font-size: 13px;
     color: #909090;
 }
+
 .btn:hover {
     background-color: #d0d0d0;
 }
+
 .article {
     width: 600px;
     /* Dinamic margin */
@@ -93,24 +111,30 @@ body {
     padding: 80px;
     background: #ffffff;
 }
+
 .article--footer {
     padding: 40px 80px 40px 80px;
     color: #808080;
 }
+
 .article--image {
     float: left;
     padding: 0px 20px 10px 0px;
 }
+
 .quote {
     padding: 5px 0px 5px 20px;
     margin: 0px 0px 0px -25px;
     font-size: 110%;
     font-style: italic;
     border-left: 5px solid #777777;
+    color: #909090;
 }
+
 .underline {
     border-bottom: 2px solid #aaaaaa;
 }
+
 .hline {
     width: 100%;
     height: 1px;
